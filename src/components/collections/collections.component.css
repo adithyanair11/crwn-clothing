@@ -1,0 +1,11 @@
+.collections{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+.collection-items{
+    display: flex;
+    justify-content: space-between;
+    gap:0 1em;
+}
