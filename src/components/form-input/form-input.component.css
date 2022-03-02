@@ -1,0 +1,39 @@
+.group{
+    position: relative;
+    margin: 45px 0;
+}
+
+.form-input{
+    width:100%;
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    display: block;
+    background-color: #fff;
+    color:#000;
+    font-size: 1rem;
+    padding:0.5em;
+    margin:25px 0;
+}
+
+input[type="password"]{
+    letter-spacing: 0.3em;
+}
+
+.form-input-label{
+    color:grey;
+    pointer-events: none;
+    font-size: 1rem;
+    position: absolute;
+    top:10px;
+    left:5px;
+    transition: 300ms ease all;
+}
+
+
+.shrink{
+    top:-16px;
+    font-size: 0.8rem;
+    color: #000;
+}
