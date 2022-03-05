@@ -25,3 +25,15 @@
     color:#000;
     border:1px solid #000;
 }
+
+.inverted{
+    background-color: #fff;
+    color:#000;
+    border:1px solid #000;
+}
+
+.inverted:hover{
+    background-color: #000;
+    color:#fff;
+    border:none;
+}

@@ -8,7 +8,7 @@ export const Collections = ({title,items}) => {
             <h1 className="title">{title.toUpperCase()}</h1>
             <div class="collection-items">
                 {
-                    items.filter((item,idx) => idx < 4).map((item) => <CollectionItem key={item.id} image={item.imageUrl} name={item.name} price={item.price}/>)
+                    items.filter((item,idx) => idx < 4).map((item) => <CollectionItem key={item.id} item={item}/>)
                 }
             </div>
         </div>

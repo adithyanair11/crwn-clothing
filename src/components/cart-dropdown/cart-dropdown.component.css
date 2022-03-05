@@ -14,10 +14,13 @@
 
 .cart-items{
     display: flex;
+    flex-direction: column;
+    gap: 0.8em 0;
     overflow-y: scroll;
     height:240px;
 }
 
 button{
-    margin-top: auto;
+    margin-top:auto;
 }
+
