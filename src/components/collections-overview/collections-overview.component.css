@@ -1,0 +1,7 @@
+.collections-overview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2em 0;
+}

@@ -1,0 +1,17 @@
+.category-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-page h2{
+    margin-bottom: 1em;
+    font-size: 2rem;
+}
+
+.category-page-item{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
