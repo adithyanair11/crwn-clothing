@@ -2,6 +2,7 @@ import React from "react";
 import './collections.component.css';
 import { CollectionItem } from "../collection-item/collection-item.component";
 
+
 export const Collections = ({title,items}) => {
     return(
         <div className="collections">
@@ -13,4 +14,4 @@ export const Collections = ({title,items}) => {
             </div>
         </div>
     );
-} 
+}

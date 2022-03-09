@@ -10,7 +10,6 @@ const mapStateToProps = createStructuredSelector({
 })
 
 export const  DirectoryMenu = connect(mapStateToProps)(({sections}) => {
-  console.log(sections)
   return(
     <div className="directory-menu">
       {

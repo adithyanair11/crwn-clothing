@@ -4,6 +4,11 @@
     flex-direction: column;
     gap:1em;
 }
+
+.collections{
+    cursor: pointer;
+}
+
 .collection-items{
     display: flex;
     justify-content: space-between;
